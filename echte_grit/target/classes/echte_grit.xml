@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="echte_gritFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <variable-transformer doc:name="Variable"/>
+        <echo-component doc:name="Echo"/>
     </flow>
 </mule>
